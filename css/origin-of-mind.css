@@ -1,8 +1,8 @@
 html {
-    font-size: calc(0.9rem + (100vw - 600px) / 800);
-    line-height: 1.4;
     max-width: 100%;
     font-family: 'Montserrat', sans-serif;
+    font-size: calc(0.9rem + (100vw - 600px) / 800);
+    line-height: 1.4;
 }
 
 @media only screen and (max-width: 600px) {
@@ -53,13 +53,13 @@ html {
     font-weight: 100;
 }
 
-.paragraph {
-    padding: 0.5em 1rem;
+.section {
+    padding: 0 1rem 0.5em;
     /* initial-letter: 3 3; not supported 2019-03 */
 }
 
 .figure {
-    padding: 0 1rem;
+    padding-bottom: 0.1em;
 }
 
 .figure-landscape {
@@ -79,14 +79,9 @@ html {
 .caption {
     font-size: 0.8rem;
     color: #303030;
-    margin-top: 1em;
+    margin: 1em 0;
 }
 
-.italic {
-    font-style: italic;
-}
-
-.medium-italic {
-    font-style: italic;
+b {
     font-weight: 500;
 }
