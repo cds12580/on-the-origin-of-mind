@@ -87,6 +87,7 @@ h4 {
 #footnote {
     padding: 4em 1rem 2em;
     font-weight: 100;
+    text-align: justify;
     color: #c5a345;
 }
 
@@ -339,4 +340,8 @@ a:any-link:hover, a:any-link:active {
 
 .red {
     color: #900000;
+}
+
+.blue {
+    color: #000766;
 }
