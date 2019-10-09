@@ -345,3 +345,16 @@ a:any-link:hover, a:any-link:active {
 .blue {
     color: #000766;
 }
+
+@media print {
+    .figure-landscape {
+        max-height: 20vh;
+    }
+
+    .figure-square {
+        max-height: 25vh;
+    }
+    .figure-portrait {
+        max-height: 30vh;
+    }
+}
