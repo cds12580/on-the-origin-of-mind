@@ -347,6 +347,7 @@ a:any-link:hover, a:any-link:active {
 }
 
 @media print {
+    
     .figure-landscape {
         max-height: 20vh;
     }
@@ -359,7 +360,7 @@ a:any-link:hover, a:any-link:active {
         max-height: 30vh;
     }
 
-    .comparison-table { 
+    figure { 
         page-break-inside: avoid;
     }
 }
