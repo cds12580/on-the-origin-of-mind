@@ -360,7 +360,15 @@ a:any-link:hover, a:any-link:active {
         max-height: 30vh;
     }
 
+    #heading {
+        min-height: 30vh;
+    }
+
     figure { 
         page-break-inside: avoid;
+    }
+
+    h1, h2, h3 {
+        page-break-after: avoid;
     }
 }
