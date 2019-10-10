@@ -371,4 +371,8 @@ a:any-link:hover, a:any-link:active {
     h1, h2, h3 {
         page-break-after: avoid;
     }
+
+    #footnote {
+        display: none;
+    }
 }
