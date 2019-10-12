@@ -9,7 +9,7 @@
 
 <url>
   <loc>https://cds12580.github.io/on-the-origin-of-mind/</loc>
-  <lastmod>2019-10-07</lastmod>
+  <lastmod>2019-10-10</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
@@ -19,9 +19,13 @@
 </url>
 <url>
   <loc>https://cds12580.github.io/on-the-origin-of-mind/index.html</loc>
-  <lastmod>2019-10-07</lastmod>
+  <lastmod>2019-10-10</lastmod>
   <priority>0.00</priority>
 </url>
-
+<url>
+  <loc>https://cds12580.github.io/on-the-origin-of-mind/appendix.html</loc>
+  <lastmod>2019-10-10</lastmod>
+  <priority>0.00</priority>
+</url>
 
 </urlset>
