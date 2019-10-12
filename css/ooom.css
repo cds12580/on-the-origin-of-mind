@@ -376,3 +376,22 @@ a:any-link:hover, a:any-link:active {
         display: none;
     }
 }
+
+/* print appendix */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    grid-gap: 1rem;
+    }
+
+.grid-item {
+    max-width: 100%;
+    height: auto;
+    }
+
+.appendix {
+    padding: 2em 1rem 0.5em;
+    page-break-inside: avoid;
+}
