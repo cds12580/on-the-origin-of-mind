@@ -28,6 +28,15 @@ html {
     padding: 0 1rem;
 }
 
+#heading-min {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    padding: 0 1rem;
+}
+
 .sub-heading {
     display: flex;
     flex-direction: column;
@@ -343,7 +352,7 @@ a:any-link:hover, a:any-link:active {
 }
 
 .blue {
-    color: #000766;
+    color: #00185a;
 }
 
 @media print {
@@ -362,6 +371,10 @@ a:any-link:hover, a:any-link:active {
 
     #heading {
         min-height: 30vh;
+    }
+
+    #heading-min {
+        min-height: 10vh;
     }
 
     figure { 
