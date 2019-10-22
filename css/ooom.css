@@ -394,7 +394,7 @@ a:any-link:hover, a:any-link:active {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
     justify-content: space-between;
     grid-gap: 1rem;
     }
