@@ -5,6 +5,11 @@ html {
     line-height: 1.4;
 }
 
+body {
+    counter-reset: figure-counter;
+    counter-reset: table-counter;
+}
+
 @media only screen and (max-width: 600px) {
     #wrapper {
         margin: 0 auto;
@@ -141,6 +146,32 @@ figcaption {
 
 b {
     font-weight: 500;
+}
+
+/* counter */
+
+#figure-counter {
+    counter-reset: figure-counter;
+}
+
+#table-counter {
+    counter-reset: table-counter;
+}
+
+figure.figure {
+    counter-increment: figure-counter;
+}
+
+figure.table {
+    counter-increment: table-counter;
+}
+
+figure.figure figcaption b::before {
+    content: "Figure " counter(figure-counter) ": ";
+}
+
+figure.table figcaption b::before {
+    content: "Table " counter(table-counter) ": ";
 }
 
 /* START x03 */
